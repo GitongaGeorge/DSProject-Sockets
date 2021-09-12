@@ -4,7 +4,7 @@ import java.net.Socket;
 import java.util.Random;
 
 import client.sockets.ClientProtocol;
-import models.details;
+import models.Details;
 import models.Faculty;
 import models.Message;
 import models.StudentName;
@@ -294,7 +294,7 @@ public class ProUI extends javax.swing.JFrame {
     }// GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton1ActionPerformed
-        var details = new details(null,getFaculty(),getStudentName(),getStudentNumber());
+        var details = new Details(null,getFaculty(),getStudentName(),getStudentNumber());
 
         try {
             ClientProtocol.socket = sessionSocket;
