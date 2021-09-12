@@ -47,7 +47,7 @@ public class SocketServer {
 
                     socketProtocol.sendMessage("Please send the details now");
                     var details = socketProtocol.retreive();
-                    socketProtocol.display("Everyting", details);
+                    socketProtocol.display("Everyting", Details);
                     socketProtocol.sendMessage("Terminated");
 
                 }
